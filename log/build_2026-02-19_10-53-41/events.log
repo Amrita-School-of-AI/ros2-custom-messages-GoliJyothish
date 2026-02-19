@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (ros2_custom_msgs) JobQueued: {'identifier': 'ros2_custom_msgs', 'dependencies': OrderedDict()}
+[0.000619] (ros2_custom_msgs) JobStarted: {'identifier': 'ros2_custom_msgs'}
+[0.010144] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'cmake'}
+[0.010875] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish', '-DCMAKE_INSTALL_PREFIX=/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs'], 'cwd': '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jyothish', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jyothish', 'OLDPWD': '/home/jyothish/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jyothish/.nvm/versions/node/v24.13.0/bin', 'NVM_INC': '/home/jyothish/.nvm/versions/node/v24.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1871', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/jyothish/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jyothish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jyothish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/jyothish/.nvm/versions/node/v24.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jyothish-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1666,unix/jyothish-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1666', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/618e9bb0_6c99_4a0e_b224_79bc5b715975', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S12AL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jyothish/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099597] (-) TimerEvent: {}
+[0.132417] (ros2_custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199733] (-) TimerEvent: {}
+[0.205783] (ros2_custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.233806] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299866] (-) TimerEvent: {}
+[0.351556] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.361100] (ros2_custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.361754] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.362330] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.374323] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400015] (-) TimerEvent: {}
+[0.500357] (-) TimerEvent: {}
+[0.505730] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.524133] (ros2_custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.524731] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.525744] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.533007] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600464] (-) TimerEvent: {}
+[0.700723] (-) TimerEvent: {}
+[0.705851] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800863] (-) TimerEvent: {}
+[0.842423] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.900450] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.900960] (-) TimerEvent: {}
+[0.919709] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.945973] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.971332] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001108] (-) TimerEvent: {}
+[1.069807] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.074111] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101266] (-) TimerEvent: {}
+[1.201609] (-) TimerEvent: {}
+[1.210460] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.235717] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.264047] (ros2_custom_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301720] (-) TimerEvent: {}
+[1.358536] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.376348] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.401823] (-) TimerEvent: {}
+[1.502130] (-) TimerEvent: {}
+[1.602504] (-) TimerEvent: {}
+[1.702840] (-) TimerEvent: {}
+[1.803168] (-) TimerEvent: {}
+[1.903491] (-) TimerEvent: {}
+[2.003822] (-) TimerEvent: {}
+[2.026064] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.103958] (-) TimerEvent: {}
+[2.204303] (-) TimerEvent: {}
+[2.304630] (-) TimerEvent: {}
+[2.404910] (-) TimerEvent: {}
+[2.505267] (-) TimerEvent: {}
+[2.605576] (-) TimerEvent: {}
+[2.705875] (-) TimerEvent: {}
+[2.806139] (-) TimerEvent: {}
+[2.826043] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.906290] (-) TimerEvent: {}
+[3.006641] (-) TimerEvent: {}
+[3.106990] (-) TimerEvent: {}
+[3.158791] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.163795] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.207120] (-) TimerEvent: {}
+[3.307471] (-) TimerEvent: {}
+[3.316331] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.407575] (-) TimerEvent: {}
+[3.507836] (-) TimerEvent: {}
+[3.608113] (-) TimerEvent: {}
+[3.708456] (-) TimerEvent: {}
+[3.808758] (-) TimerEvent: {}
+[3.830798] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.870960] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.905985] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.908868] (-) TimerEvent: {}
+[3.919710] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.920502] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_generator_c>;$<BUILD_INTERFACE:/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_typesupport_introspection_cpp>;/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_generator_c;/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs/rosidl_generator_py\n'}
+[3.920753] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.934047] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.934353] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.936466] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.936675] (ros2_custom_msgs) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.940480] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.942843] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.956402] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.956658] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.958935] (ros2_custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.962560] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configuring done (3.9s)\n'}
+[4.005145] (ros2_custom_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.008981] (-) TimerEvent: {}
+[4.019035] (ros2_custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs\n'}
+[4.035288] (ros2_custom_msgs) CommandEnded: {'returncode': 0}
+[4.036205] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'build'}
+[4.037500] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', '--', '-j12', '-l12'], 'cwd': '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jyothish', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jyothish', 'OLDPWD': '/home/jyothish/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jyothish/.nvm/versions/node/v24.13.0/bin', 'NVM_INC': '/home/jyothish/.nvm/versions/node/v24.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1871', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/jyothish/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jyothish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jyothish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/jyothish/.nvm/versions/node/v24.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jyothish-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1666,unix/jyothish-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1666', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/618e9bb0_6c99_4a0e_b224_79bc5b715975', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S12AL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jyothish/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.100159] (ros2_custom_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.109085] (-) TimerEvent: {}
+[4.110691] (ros2_custom_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ros2_custom_msgs\n'}
+[4.209186] (-) TimerEvent: {}
+[4.296618] (ros2_custom_msgs) StdoutLine: {'line': b'[  2%] Built target ros2_custom_msgs__rosidl_generator_type_description\n'}
+[4.309313] (-) TimerEvent: {}
+[4.310397] (ros2_custom_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.321923] (ros2_custom_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.323123] (ros2_custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.324073] (ros2_custom_msgs) StdoutLine: {'line': b'creating ros2_custom_msgs.egg-info\n'}
+[4.343938] (ros2_custom_msgs) StdoutLine: {'line': b'writing ros2_custom_msgs.egg-info/PKG-INFO\n'}
+[4.344305] (ros2_custom_msgs) StdoutLine: {'line': b'writing dependency_links to ros2_custom_msgs.egg-info/dependency_links.txt\n'}
+[4.344485] (ros2_custom_msgs) StdoutLine: {'line': b'writing top-level names to ros2_custom_msgs.egg-info/top_level.txt\n'}
+[4.344583] (ros2_custom_msgs) StdoutLine: {'line': b"writing manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'\n"}
+[4.405271] (ros2_custom_msgs) StdoutLine: {'line': b"reading manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'\n"}
+[4.405756] (ros2_custom_msgs) StdoutLine: {'line': b"writing manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'\n"}
+[4.409416] (-) TimerEvent: {}
+[4.448691] (ros2_custom_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_ros2_custom_msgs_egg\n'}
+[4.509542] (-) TimerEvent: {}
+[4.574038] (ros2_custom_msgs) StdoutLine: {'line': b'[  8%] Built target ros2_custom_msgs__cpp\n'}
+[4.598463] (ros2_custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[4.598689] (ros2_custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__description.c.o\x1b[0m\n'}
+[4.598787] (ros2_custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[4.609658] (-) TimerEvent: {}
+[4.665525] (ros2_custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libros2_custom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.709777] (-) TimerEvent: {}
+[4.713907] (ros2_custom_msgs) StdoutLine: {'line': b'[ 19%] Built target ros2_custom_msgs__rosidl_generator_c\n'}
+[4.728414] (ros2_custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.728695] (ros2_custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.728789] (ros2_custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.729663] (ros2_custom_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.729988] (ros2_custom_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.730101] (ros2_custom_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.809947] (-) TimerEvent: {}
+[4.910297] (-) TimerEvent: {}
+[5.010634] (-) TimerEvent: {}
+[5.052193] (ros2_custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_custom_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.101539] (ros2_custom_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_custom_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[5.110750] (-) TimerEvent: {}
+[5.138278] (ros2_custom_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_custom_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.151169] (ros2_custom_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_custom_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.157830] (ros2_custom_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libros2_custom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.161295] (ros2_custom_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_custom_msgs/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.194896] (ros2_custom_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.201775] (ros2_custom_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_custom_msgs/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.207867] (ros2_custom_msgs) StdoutLine: {'line': b'[ 58%] Built target ros2_custom_msgs__rosidl_typesupport_introspection_c\n'}
+[5.210862] (-) TimerEvent: {}
+[5.268700] (ros2_custom_msgs) StdoutLine: {'line': b'[ 58%] Built target ros2_custom_msgs__rosidl_typesupport_c\n'}
+[5.310983] (-) TimerEvent: {}
+[5.411318] (-) TimerEvent: {}
+[5.495694] (ros2_custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.511432] (-) TimerEvent: {}
+[5.531045] (ros2_custom_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.550614] (ros2_custom_msgs) StdoutLine: {'line': b'[ 63%] Built target ros2_custom_msgs__rosidl_typesupport_cpp\n'}
+[5.579461] (ros2_custom_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/status_publisher.dir/src/status_publisher.cpp.o\x1b[0m\n'}
+[5.611573] (-) TimerEvent: {}
+[5.634319] (ros2_custom_msgs) StdoutLine: {'line': b'[ 66%] Built target ros2_custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.647954] (ros2_custom_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.711699] (-) TimerEvent: {}
+[5.735313] (ros2_custom_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.767294] (ros2_custom_msgs) StdoutLine: {'line': b'[ 72%] Built target ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.811811] (-) TimerEvent: {}
+[5.843764] (ros2_custom_msgs) StdoutLine: {'line': b'[ 72%] Built target ros2_custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.867848] (ros2_custom_msgs) StdoutLine: {'line': b'[ 72%] Built target ros2_custom_msgs\n'}
+[5.892975] (ros2_custom_msgs) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.911924] (-) TimerEvent: {}
+[6.012195] (-) TimerEvent: {}
+[6.112493] (-) TimerEvent: {}
+[6.177427] (ros2_custom_msgs) StdoutLine: {'line': b'[ 75%] Built target ros2_custom_msgs__py\n'}
+[6.204496] (ros2_custom_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_custom_msgs/msg/_robot_status_s.c.o\x1b[0m\n'}
+[6.212609] (-) TimerEvent: {}
+[6.312896] (-) TimerEvent: {}
+[6.351192] (ros2_custom_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libros2_custom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.403614] (ros2_custom_msgs) StdoutLine: {'line': b'[ 80%] Built target ros2_custom_msgs__rosidl_generator_py\n'}
+[6.413043] (-) TimerEvent: {}
+[6.430784] (ros2_custom_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.431011] (ros2_custom_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.431120] (ros2_custom_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.513157] (-) TimerEvent: {}
+[6.552731] (ros2_custom_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.553129] (ros2_custom_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.558162] (ros2_custom_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.594420] (ros2_custom_msgs) StdoutLine: {'line': b'[ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_c\n'}
+[6.594657] (ros2_custom_msgs) StdoutLine: {'line': b'[ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_introspection_c\n'}
+[6.597920] (ros2_custom_msgs) StdoutLine: {'line': b'[ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[6.613281] (-) TimerEvent: {}
+[6.713558] (-) TimerEvent: {}
+[6.813841] (-) TimerEvent: {}
+[6.914119] (-) TimerEvent: {}
+[7.014419] (-) TimerEvent: {}
+[7.114702] (-) TimerEvent: {}
+[7.214983] (-) TimerEvent: {}
+[7.315287] (-) TimerEvent: {}
+[7.415583] (-) TimerEvent: {}
+[7.515880] (-) TimerEvent: {}
+[7.616164] (-) TimerEvent: {}
+[7.716474] (-) TimerEvent: {}
+[7.816749] (-) TimerEvent: {}
+[7.917029] (-) TimerEvent: {}
+[8.017323] (-) TimerEvent: {}
+[8.117626] (-) TimerEvent: {}
+[8.217908] (-) TimerEvent: {}
+[8.318180] (-) TimerEvent: {}
+[8.418465] (-) TimerEvent: {}
+[8.518744] (-) TimerEvent: {}
+[8.619054] (-) TimerEvent: {}
+[8.719386] (-) TimerEvent: {}
+[8.819668] (-) TimerEvent: {}
+[8.919948] (-) TimerEvent: {}
+[9.020245] (-) TimerEvent: {}
+[9.120521] (-) TimerEvent: {}
+[9.220804] (-) TimerEvent: {}
+[9.321092] (-) TimerEvent: {}
+[9.421385] (-) TimerEvent: {}
+[9.521682] (-) TimerEvent: {}
+[9.622031] (-) TimerEvent: {}
+[9.722422] (-) TimerEvent: {}
+[9.822747] (-) TimerEvent: {}
+[9.830240] (ros2_custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable status_publisher\x1b[0m\n'}
+[9.922863] (-) TimerEvent: {}
+[10.023160] (-) TimerEvent: {}
+[10.061429] (ros2_custom_msgs) StdoutLine: {'line': b'[100%] Built target status_publisher\n'}
+[10.076068] (ros2_custom_msgs) CommandEnded: {'returncode': 0}
+[10.076986] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'install'}
+[10.089404] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs'], 'cwd': '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jyothish', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jyothish', 'OLDPWD': '/home/jyothish/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jyothish/.nvm/versions/node/v24.13.0/bin', 'NVM_INC': '/home/jyothish/.nvm/versions/node/v24.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1871', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'NVM_DIR': '/home/jyothish/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jyothish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jyothish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/jyothish/.nvm/versions/node/v24.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jyothish-HP-Pavilion-Laptop-15-eh1xxx:@/tmp/.ICE-unix/1666,unix/jyothish-HP-Pavilion-Laptop-15-eh1xxx:/tmp/.ICE-unix/1666', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/618e9bb0_6c99_4a0e_b224_79bc5b715975', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S12AL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jyothish/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.099771] (ros2_custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.100028] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_custom_msgs\n'}
+[10.100239] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.json\n'}
+[10.100458] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[10.100646] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[10.100757] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/robot_status.h\n'}
+[10.100877] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[10.101047] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__functions.c\n'}
+[10.101167] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__functions.h\n'}
+[10.101341] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__description.c\n'}
+[10.101463] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.h\n'}
+[10.101612] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__struct.h\n'}
+[10.101717] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.c\n'}
+[10.101826] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.101966] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/library_path.sh\n'}
+[10.102106] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/library_path.dsv\n'}
+[10.102246] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_c.so\n'}
+[10.102603] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_c.so" to ""\n'}
+[10.102757] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[10.102885] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[10.102985] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[10.103061] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.103139] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.103255] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.103492] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.103667] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[10.103747] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[10.103883] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/robot_status.hpp\n'}
+[10.103989] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.104135] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[10.104210] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__builder.hpp\n'}
+[10.104292] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.hpp\n'}
+[10.104398] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__struct.hpp\n'}
+[10.104467] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__traits.hpp\n'}
+[10.104591] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[10.104719] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[10.104857] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[10.104986] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/dds_fastrtps\n'}
+[10.105092] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.105197] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.105339] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.105471] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.105588] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[10.105729] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[10.105841] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[10.105937] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[10.106004] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.c\n'}
+[10.106066] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.106158] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.106451] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.106586] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_c.so\n'}
+[10.106834] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[10.106962] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[10.107102] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[10.107188] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[10.107272] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.cpp\n'}
+[10.107396] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.107501] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.107726] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.107824] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_cpp.so\n'}
+[10.108134] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[10.108296] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/pythonpath.sh\n'}
+[10.108530] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/pythonpath.dsv\n'}
+[10.108703] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info\n'}
+[10.108847] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.108987] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.109116] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.109269] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.109454] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs\n'}
+[10.109600] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.109726] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so\n'}
+[10.109867] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/__init__.py\n'}
+[10.109993] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.110142] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.110301] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg\n'}
+[10.110442] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status_s.c\n'}
+[10.110540] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/__init__.py\n'}
+[10.110753] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status.py\n'}
+[10.110928] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.111108] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[10.123278] (-) TimerEvent: {}
+[10.148475] (ros2_custom_msgs) StdoutLine: {'line': b"Listing '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs'...\n"}
+[10.148711] (ros2_custom_msgs) StdoutLine: {'line': b"Compiling '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/__init__.py'...\n"}
+[10.148808] (ros2_custom_msgs) StdoutLine: {'line': b"Listing '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg'...\n"}
+[10.148901] (ros2_custom_msgs) StdoutLine: {'line': b"Compiling '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/__init__.py'...\n"}
+[10.148987] (ros2_custom_msgs) StdoutLine: {'line': b"Compiling '/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status.py'...\n"}
+[10.155298] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.155948] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.156372] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[10.156828] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.157027] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so\n'}
+[10.157371] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[10.157532] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_py.so\n'}
+[10.157804] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_py.so" to ""\n'}
+[10.157979] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.idl\n'}
+[10.158094] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.msg\n'}
+[10.158212] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/ros2_custom_msgs/status_publisher\n'}
+[10.159870] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/lib/ros2_custom_msgs/status_publisher" to ""\n'}
+[10.160139] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_custom_msgs\n'}
+[10.160341] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_custom_msgs\n'}
+[10.160443] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/ament_prefix_path.sh\n'}
+[10.160558] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/ament_prefix_path.dsv\n'}
+[10.160668] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/path.sh\n'}
+[10.160799] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/path.dsv\n'}
+[10.160941] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.bash\n'}
+[10.161086] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.sh\n'}
+[10.161239] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.zsh\n'}
+[10.161375] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.dsv\n'}
+[10.161552] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/package.dsv\n'}
+[10.161762] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ament_index/resource_index/packages/ros2_custom_msgs\n'}
+[10.161971] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[10.162144] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.162326] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.162509] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.162654] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.162801] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.163013] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.163157] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.163296] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.163455] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.163649] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.163833] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.163993] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.164166] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.164334] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.164505] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[10.164667] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.164814] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.164960] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.165111] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.165278] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.165427] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.165583] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.165732] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.165886] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgsConfig.cmake\n'}
+[10.166045] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgsConfig-version.cmake\n'}
+[10.166200] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/jyothish/Desktop/ros2-custom-messages-GoliJyothish/install/ros2_custom_msgs/share/ros2_custom_msgs/package.xml\n'}
+[10.169312] (ros2_custom_msgs) CommandEnded: {'returncode': 0}
+[10.193349] (ros2_custom_msgs) JobEnded: {'identifier': 'ros2_custom_msgs', 'rc': 0}
+[10.194278] (-) EventReactorShutdown: {}
